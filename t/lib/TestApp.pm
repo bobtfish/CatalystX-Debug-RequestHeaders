@@ -2,7 +2,9 @@ package TestApp;
 use Moose;
 use namespace::autoclean;
 
-use Catalyst;
+use Catalyst qw/
+    +CatalystX::Debug::RequestHeaders
+/;
 
 extends 'Catalyst';
 
