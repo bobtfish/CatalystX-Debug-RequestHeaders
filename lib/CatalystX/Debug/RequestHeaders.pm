@@ -2,7 +2,7 @@ package CatalystX::Debug::RequestHeaders;
 use Moose::Role;
 use namespace::autoclean;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 requires 'log_request_headers';
 
